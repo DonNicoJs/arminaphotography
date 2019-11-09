@@ -16,7 +16,7 @@ pictures:
     tags:
       - beverages
   - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/v1573303138/food/DSC_4233_edited_fotzjx.jpg
+      https://res.cloudinary.com/donnicojs/image/upload/v1573303137/food/DSC_4449_edited_savqlx.jpg
     tags:
       - beverages
   - image: >-
