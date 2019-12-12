@@ -22,7 +22,11 @@ export default {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-  urgeCSS: {},
+  purgeCSS: {},
+  server: {
+    port: 3002,
+    host: '0.0.0.0'
+  },
   build: {
     extractCSS: true,
     postcss: {
