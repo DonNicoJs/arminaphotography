@@ -145,9 +145,13 @@ module.exports = {
       '40': '10rem',
       '48': '12rem',
       '56': '14rem',
-      '64': '16rem'
+      '64': '16rem',
+      '70': '20rem'
     },
-    backgroundColor: theme => theme('colors'),
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      shadow: 'rgba(0, 0, 0, 0.5)'
+    }),
     backgroundPosition: {
       bottom: 'bottom',
       center: 'center',
@@ -246,7 +250,17 @@ module.exports = {
         '"Liberation Mono"',
         '"Courier New"',
         'monospace'
-      ]
+      ],
+      calibri: [
+        'Calibri',
+        'Candara',
+        'Segoe',
+        'Segoe UI',
+        'Optima',
+        'Arial',
+        'sans-serif'
+      ],
+      kristi: ['kristimedium']
     },
     fontSize: {
       xs: '0.75rem',
@@ -275,11 +289,16 @@ module.exports = {
       auto: 'auto',
       ...theme('spacing'),
       full: '100%',
-      screen: '100vh'
+      screen: '100vh',
+      '1/4-screen': '25vh',
+      '1/3-screen': '30vh',
+      '1/2-screen': '50vh',
+      '3/4-screen': '70vh'
     }),
     inset: {
       '0': '0',
-      auto: 'auto'
+      auto: 'auto',
+      '1/2': '50%'
     },
     letterSpacing: {
       tighter: '-0.05em',
@@ -322,6 +341,8 @@ module.exports = {
       '4xl': '56rem',
       '5xl': '64rem',
       '6xl': '72rem',
+      '1/3': '33%',
+      '1/2': '50%',
       full: '100%'
     },
     minHeight: {
@@ -414,6 +435,72 @@ module.exports = {
       '30': '30',
       '40': '40',
       '50': '50'
+    },
+    transform: {
+      // defaults to this value
+      none: 'none'
+    },
+    transformOrigin: {
+      // defaults to these values
+      t: 'top',
+      tr: 'top right',
+      r: 'right',
+      br: 'bottom right',
+      b: 'bottom',
+      bl: 'bottom left',
+      l: 'left',
+      tl: 'top left'
+    },
+    translate: {
+      // defaults to {}
+      '1/2': '50%',
+      full: '100%',
+      'right-up': ['100%', '-100%'],
+      '3d': ['40px', '-60px', '-130px'],
+      'center-top': ['-50%', '-50%'],
+      'center-x': ['-50%', '0'],
+      'center-y': ['0', '-50%']
+    },
+    scale: {
+      // defaults to {}
+      '90': '0.9',
+      '100': '1',
+      '110': '1.1',
+      '-100': '-1',
+      'stretched-x': ['2', '0.5'],
+      'stretched-y': ['0.5', '2'],
+      '3d': ['0.5', '1', '2']
+    },
+    rotate: {
+      // defaults to {}
+      '90': '90deg',
+      '180': '180deg',
+      '270': '270deg',
+      '3d': ['0', '1', '0.5', '45deg']
+    },
+    skew: {
+      // defaults to {}
+      '-5': '-5deg',
+      '5': '5deg'
+    },
+    perspective: {
+      // defaults to {}
+      none: 'none',
+      '250': '250px',
+      '500': '500px',
+      '750': '750px',
+      '1000': '1000px'
+    },
+    perspectiveOrigin: {
+      // defaults to these values
+      t: 'top',
+      tr: 'top right',
+      r: 'right',
+      br: 'bottom right',
+      b: 'bottom',
+      bl: 'bottom left',
+      l: 'left',
+      tl: 'top left'
     }
   },
   variants: {
@@ -482,8 +569,24 @@ module.exports = {
     whitespace: ['responsive'],
     width: ['responsive'],
     wordBreak: ['responsive'],
-    zIndex: ['responsive']
+    zIndex: ['responsive'],
+    transform: ['responsive'],
+    transformOrigin: ['responsive'],
+    translate: ['responsive'],
+    scale: ['responsive'],
+    rotate: ['responsive'],
+    skew: ['responsive'],
+    perspective: ['responsive'],
+    perspectiveOrigin: ['responsive'],
+    transformStyle: ['responsive'],
+    backfaceVisibility: ['responsive'],
+    transformBox: ['responsive']
   },
   corePlugins: {},
-  plugins: []
+  plugins: [
+    require('tailwindcss-transforms')({
+      '3d': false // defaults to false
+    }),
+    require('tailwindcss-transitions')()
+  ]
 }
