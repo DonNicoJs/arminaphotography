@@ -23,5 +23,10 @@ pictures:
     tags:
       - bakery
     title: Food
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,q_58,w_1024/v1573303098/lifestyle/001_-_Copy_q8rwez.jpg
+    tags:
+      - portrait
+    title: Portrait
 ---
 
