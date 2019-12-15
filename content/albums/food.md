@@ -27,7 +27,6 @@ pictures:
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421531/lifestyle/Food_005-1_pezfbn.jpg
     tags:
       - interior
-      - still life
     title: 'Interior '
   - image: >-
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576418219/lifestyle/Lifestyle_007_-_Family_amnyer.jpg
