@@ -66,12 +66,6 @@ pictures:
       - desserts
     title: Desserts
   - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/v1576423081/lifestyle/Food_011-1_wz2li6.jpg
-    tags:
-      - bakery
-      - people
-    title: Bakery
-  - image: >-
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422396/lifestyle/Food_012_eddrwy.jpg
     tags:
       - people
