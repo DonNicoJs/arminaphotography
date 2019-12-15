@@ -4,29 +4,77 @@ thumbnail: >-
   https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576418687/lifestyle/Lifestyle_-_Featured_Photo_yvlvpk.jpg
 pictures:
   - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/v1573303139/food/DSC_4234_edited_knedvv.jpg
-    tags:
-      - interior
-    title: Chef and wine
-  - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/v1573303139/food/SaltLand_Compositional11_Facebook_Adds_560x292px_proportional_bt4h2x.jpg
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421472/lifestyle/Food_001-1_am58li.jpg
     tags:
       - still life
-    title: Spoon and salt
-  - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/v1573303138/food/20170721_183038_yjlf30.jpg
-    tags:
-      - still life
-    title: Table and flowers
-  - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/v1573303137/food/DSC_4449_edited_savqlx.jpg
-    tags:
-      - bakery
     title: Food
   - image: >-
-      https://res.cloudinary.com/donnicojs/image/upload/c_scale,q_58,w_1024/v1573303098/lifestyle/001_-_Copy_q8rwez.jpg
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421568/lifestyle/Food_002_g2agjq.jpg
     tags:
+      - still life
+    title: Food
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421568/lifestyle/Food_003_kehmna.jpg
+    tags:
+      - still life
+    title: Food
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421549/lifestyle/Food_004_akpiic.jpg
+    tags:
+      - still life
+    title: Food
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421531/lifestyle/Food_005-1_pezfbn.jpg
+    tags:
+      - interior
+      - still life
+    title: 'Interior '
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576418219/lifestyle/Lifestyle_007_-_Family_amnyer.jpg
+    tags:
+      - bakery
+      - people
+      - interior
       - portrait
-    title: Portrait
+      - still life
+    title: Bakery
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421535/lifestyle/Food_007-1_fjpvwf.jpg
+    tags:
+      - still life
+    title: Food
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422293/lifestyle/Food_008_rk4rat.jpg
+    tags:
+      - desserts
+    title: Desserts
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422430/lifestyle/Food_009_sjlbmn.jpg
+    tags:
+      - bakery
+      - desserts
+    title: Desserts
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422421/lifestyle/Food_010_jtyvik.jpg
+    tags:
+      - bakery
+      - desserts
+    title: Desserts
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/v1576422393/lifestyle/Food_011_opbu47.jpg
+    tags:
+      - bakery
+      - people
+    title: Bakery
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422396/lifestyle/Food_012_eddrwy.jpg
+    tags:
+      - people
+    title: People
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422396/lifestyle/Food_013_insqlg.jpg
+    tags:
+      - people
+    title: People
 ---
 
