@@ -7,11 +7,16 @@ pictures:
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1573303098/lifestyle/001_-_Copy_q8rwez.jpg
     tags:
       - portrait
-    title: Lifestyle
+    title: Portrait
   - image: >-
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1420/v1576416559/lifestyle/DSC_6192_edited_wglovv.jpg
     tags:
       - children
-    title: Lifestyle
+    title: Children
+  - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576417356/lifestyle/Lifestyle_003_-_Family_zndx9b.jpg
+    tags:
+      - people
+    title: Family
 ---
 
