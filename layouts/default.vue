@@ -1,7 +1,7 @@
 <template>
   <div class="font-calibri">
     <NavigationBar :tags="tags" />
-    <div class="pt-32 px-8">
+    <div class="pt-32 px-32">
       <nuxt />
     </div>
   </div>
