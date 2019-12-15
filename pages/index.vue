@@ -1,15 +1,12 @@
 <template>
   <div class="flex flex-col md:flex-row">
-    <div class="flex-1 mb-4 md:mr-4">
-      <nuxt-link :class="linkClasses" :to="{ name: 'food' }">
-        <Picture :src="food.thumbnail" :title="food.title" is-main />
-      </nuxt-link>
-    </div>
-    <div class="flex-1 mb-4">
-      <nuxt-link :class="linkClasses" :to="{ name: 'lifestyle' }">
-        <Picture :src="lifestyle.thumbnail" :title="lifestyle.title" is-main />
-      </nuxt-link>
-    </div>
+    <nuxt-link :to="{ name: 'food' }" class="block mb-4 md:mr-8 w-1/2">
+      <Picture :src="food.thumbnail" :title="food.title" is-main />
+    </nuxt-link>
+
+    <nuxt-link :to="{ name: 'lifestyle' }" class="block mb-4 w-1/2">
+      <Picture :src="lifestyle.thumbnail" :title="lifestyle.title" is-main />
+    </nuxt-link>
   </div>
 </template>
 
@@ -26,13 +23,6 @@ export default {
     return {
       food,
       lifestyle
-    }
-  },
-  computed: {
-    linkClasses() {
-      return {
-        block: true
-      }
     }
   },
   mounted() {

@@ -291,8 +291,9 @@ module.exports = {
       full: '100%',
       screen: '100vh',
       '1/4-screen': '25vh',
-      '1/3-screen': '30vh',
+      '1/3-screen': '33vh',
       '1/2-screen': '50vh',
+      '2/3-screen': '66vh',
       '3/4-screen': '70vh'
     }),
     inset: {
@@ -425,7 +426,11 @@ module.exports = {
       '10/12': '83.333333%',
       '11/12': '91.666667%',
       full: '100%',
-      screen: '100vw'
+      screen: '100vw',
+      '3/4-screen': '75vw',
+      '1/2-screen': '50vw',
+      '1/3-screen': '33vw',
+      '1/4-screen': '25vw'
     }),
     zIndex: {
       auto: 'auto',

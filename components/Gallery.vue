@@ -1,12 +1,13 @@
 <template>
-  <div class="flex flex-wrap flex-col md:flex-row items-center justify-center">
-    <div
-      v-for="(pic, index) in repeated"
-      class="my-1 mx-2 md:max-w-1/3 lg:max-w-1/2"
-    >
-      <Picture :key="index" :src="pic.image" :title="pic.title" />
-    </div>
-  </div>
+  <masonry :cols="{ default: 3, 700: 2, 400: 1 }" gutter="2rem">
+    <Picture
+      v-for="(pic, index) in filtered"
+      :key="index"
+      :src="pic.image"
+      :title="pic.title"
+      class="mb-8"
+    />
+  </masonry>
 </template>
 
 <script>
@@ -32,13 +33,6 @@ export default {
         return this.pictures
       }
       return this.pictures.filter(p => p.tags.includes(this.filter))
-    },
-    repeated() {
-      const result = []
-      for (let i = 0; i < 20; i++) {
-        result.push(...this.filtered)
-      }
-      return result
     },
     tags() {
       const result = new Set()

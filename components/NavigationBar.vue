@@ -1,9 +1,9 @@
 <template>
-  <nav class="fixed top- left-0 right-0 bg-white z-10 px-4">
+  <nav class="fixed top- left-0 right-0 bg-white z-10 px-8">
     <div class=" flex justify-between items-center flex-col sm:flex-row">
       <div>
         <nuxt-link :to="{ name: 'index' }" class="font-kristi text-5xl">
-          Armina Photography
+          armina photography
         </nuxt-link>
       </div>
       <div class="flex">
@@ -12,10 +12,10 @@
           target="_blank"
           class="mr-2"
         >
-          <img class="w-6 h-6" src="~assets/icons/facebook.svg" />
+          facebook
         </a>
         <a href="mailto:arminaphotography@gmail.com">
-          <img class="w-6 h-6" src="~assets/icons/email.svg" />
+          e-mail
         </a>
       </div>
     </div>

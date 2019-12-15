@@ -1,12 +1,10 @@
 <template>
-  <figure :class="{ 'relative inline-block': true }">
+  <figure :class="{ relative: true, 'inline-block': isMain }">
     <img
-      :src="src"
+      v-lazy="src"
       :alt="title"
       :class="{
-        'object-cover w-auto': true,
-        'h-1/2-screen md:h-1/4-screen': !isMain,
-        'h-1/2-screen md:h-3/4-screen w-full': isMain
+        'w-full h-auto': true
       }"
     />
     <figcaption
