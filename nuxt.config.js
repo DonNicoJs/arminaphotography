@@ -93,7 +93,7 @@ export default {
   loading: { color: '#fff' },
   css: ['~/assets/css/tailwind.css'],
   plugins: ['~/plugins/lazy-load.js', '~/plugins/masonry.js'],
-  modules: ['@nuxtjs/pwa', 'nuxt-purgecss'],
+  modules: ['@nuxtjs/pwa'],
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
