@@ -1,7 +1,7 @@
 ---
-title: food
+title: food & beverages
 thumbnail: >-
-  https://res.cloudinary.com/donnicojs/image/upload/v1573303135/food/DSC_5587_edited_er58be.jpg
+  https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576418687/lifestyle/Lifestyle_-_Featured_Photo_yvlvpk.jpg
 pictures:
   - image: >-
       https://res.cloudinary.com/donnicojs/image/upload/v1573303139/food/DSC_4234_edited_knedvv.jpg
