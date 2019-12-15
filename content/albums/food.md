@@ -49,6 +49,11 @@ pictures:
       - desserts
     title: Desserts
   - image: >-
+      https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576417975/lifestyle/Lifestyle_004_-_Portrait_ggtw2z.jpg
+    tags:
+      - people
+    title: People
+  - image: >-
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576422430/lifestyle/Food_009_sjlbmn.jpg
     tags:
       - bakery
