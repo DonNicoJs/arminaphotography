@@ -6,14 +6,13 @@
           armina photography
         </nuxt-link>
       </div>
-      <div class="flex">
-        <a
-          href="https://www.facebook.com/arminaphotography/"
-          target="_blank"
-          class="mr-2"
-        >
+      <div class="flex items-center">
+        <a href="https://www.facebook.com/arminaphotography/" target="_blank">
           facebook
         </a>
+
+        <span class="bg-red-armina h-2 w-2 mx-2" />
+
         <a href="mailto:arminaphotography@gmail.com">
           e-mail
         </a>
