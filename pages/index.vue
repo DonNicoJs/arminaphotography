@@ -1,10 +1,13 @@
 <template>
   <div class="flex flex-col md:flex-row">
-    <nuxt-link :to="{ name: 'food' }" class="block mb-4 md:mr-8 w-1/2">
+    <nuxt-link
+      :to="{ name: 'food' }"
+      class="block mb-4 md:mr-8 w-full md:w-1/2"
+    >
       <Picture :src="food.thumbnail" :title="food.title" is-main />
     </nuxt-link>
 
-    <nuxt-link :to="{ name: 'lifestyle' }" class="block mb-4 w-1/2">
+    <nuxt-link :to="{ name: 'lifestyle' }" class="block mb-4 w-full md:w-1/2">
       <Picture :src="lifestyle.thumbnail" :title="lifestyle.title" is-main />
     </nuxt-link>
   </div>
