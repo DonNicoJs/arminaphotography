@@ -1,12 +1,7 @@
 <template>
   <figure :class="{ relative: true, 'inline-block': isMain }">
-    <g-image
-      :src="src"
-      :alt="title"
-      :class="{
-        'w-full h-auto': true
-      }"
-    />
+    <g-image :src="src" :alt="title" class="w-full h-auto" />
+
     <figcaption
       :class="{
         'absolute top-0 left-0 right-0 bottom-0  bg-shadow transition-all': true,
@@ -14,6 +9,7 @@
         'opacity-100 hover:opacity-0': isMain
       }"
     >
+      <!--  purgecss: opacity-0 hover:opacity-100 opacity-100 hover:opacity-0 absolute top-0 left-0 right-0 bottom-0  bg-shadow transition-all -->
       <span
         :class="{
           'absolute translate-center-y top-1/2 left-0 font-kristi text-white capitalize text-center right-0 px-2': true,
@@ -22,6 +18,7 @@
         }"
         >{{ title }}</span
       >
+      <!--  purgecss: absolute translate-center-y top-1/2 left-0 font-kristi text-white capitalize text-center right-0 px-2 text-3xl text-6xl -->
     </figcaption>
   </figure>
 </template>

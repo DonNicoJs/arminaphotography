@@ -7,6 +7,7 @@
         v-for="(album, index) in $page.albums.edges"
         :key="index"
       >
+        <!--  purgecss: block mb-4 w-full md:w-1/2 md:mr-8 -->
         <Picture
           :src="album.node.thumbnail"
           :title="album.node.title"

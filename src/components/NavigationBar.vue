@@ -24,6 +24,7 @@
             'border-b-2': tag.value === selectedTag
           }"
         >
+          <!--  purgecss: border-b-2 -->
           <button
             @click.prevent="selectTag(tag.value)"
             class="flex items-center focus:outline-none"
