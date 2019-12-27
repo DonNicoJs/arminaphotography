@@ -1,0 +1,61 @@
+<template>
+  <Layout>
+    <div class="flex flex-col md:flex-row">
+      <g-link
+        :to="album.node.path"
+        :class="{ 'block mb-4 w-full md:w-1/2': true, 'md:mr-8': index === 0 }"
+        v-for="(album, index) in $page.albums.edges"
+        :key="index"
+      >
+        <Picture
+          :src="album.node.thumbnail"
+          :title="album.node.title"
+          is-main
+        />
+      </g-link>
+    </div>
+  </Layout>
+</template>
+
+<page-query>
+query {
+  albums: allAlbums {
+    edges {
+      node {
+        thumbnail,
+        title,
+        path
+      }
+    }
+  }
+}
+</page-query>
+
+<script>
+import Picture from "@/components/Picture";
+
+export default {
+  components: {
+    Picture
+  },
+  data() {
+    return {
+      // food,
+      // lifestyle
+    };
+  },
+  mounted() {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            this.$route.push("/admin");
+          });
+        }
+      });
+    }
+  }
+};
+</script>
+
+<style></style>

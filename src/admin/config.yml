@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/uploads"
+public_folder: "/content"
+collections:
+  - name: "albums" # Used in routes, e.g., /admin/collections/blog
+    label: "Albums" # Used in the UI
+    folder: "content/albums" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "slug", widget: "string" }
+      - { label: "Order", name: "order", widget: "number", default: 1, min: 0 }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - label: "Pictures"
+        name: "pictures"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - {
+              label: "Tags",
+              name: "tags",
+              widget: "select",
+              multiple: true,
+              options:
+                [
+                  "drink",
+                  "desserts",
+                  "bakery",
+                  "people",
+                  "interior",
+                  "still life",
+                  "portrait",
+                  "children",
+                  "pets",
+                  "family",
+                  "business",
+                ],
+            }
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/pages/about.md"
+        fields:
+          - { label: Description, name: description, widget: markdown }
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: donnicojs
+    api_key: 147379786432564

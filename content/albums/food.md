@@ -1,5 +1,6 @@
 ---
 title: food & beverages
+slug: food
 thumbnail: >-
   https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576418687/lifestyle/Lifestyle_-_Featured_Photo_yvlvpk.jpg
 pictures:
@@ -27,7 +28,7 @@ pictures:
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576421531/lifestyle/Food_005-1_pezfbn.jpg
     tags:
       - interior
-    title: 'Interior '
+    title: "Interior "
   - image: >-
       https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576418219/lifestyle/Lifestyle_007_-_Family_amnyer.jpg
     tags:
@@ -75,4 +76,3 @@ pictures:
       - people
     title: People
 ---
-

@@ -1,0 +1,52 @@
+// This is where project configuration and plugin options are located.
+// Learn more: https://gridsome.org/docs/config
+
+// Changes here require a server restart.
+// To restart press CTRL + C in terminal and run `gridsome develop`
+const tailwindcss = require("tailwindcss");
+
+module.exports = {
+  siteName: "arminaphotography",
+  transformers: {
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"],
+      anchorClassName: "icon icon-link",
+      plugins: [
+        // ...global plugins
+      ]
+    }
+  },
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: [tailwindcss]
+      }
+    }
+  },
+  templates: {
+    Albums: "/:slug"
+  },
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "./content/albums/*.md",
+        typeName: "Albums"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "./content/pages/*.md",
+        typeName: "Pages"
+      }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    }
+  ]
+};
