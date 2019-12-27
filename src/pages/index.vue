@@ -37,23 +37,6 @@ import Picture from "@/components/Picture";
 export default {
   components: {
     Picture
-  },
-  data() {
-    return {
-      // food,
-      // lifestyle
-    };
-  },
-  mounted() {
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            this.$route.push("/admin");
-          });
-        }
-      });
-    }
   }
 };
 </script>

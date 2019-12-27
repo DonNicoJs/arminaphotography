@@ -13,14 +13,6 @@
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
 <script>
 import NavigationBar from "~/components/NavigationBar";
 import FooterBar from "~/components/FooterBar";
@@ -29,11 +21,6 @@ export default {
   components: {
     NavigationBar,
     FooterBar
-  },
-  metaInfo() {
-    return {
-      // title: this.$static.metadata.siteName
-    };
   },
   provide() {
     const selected = {};
