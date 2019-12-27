@@ -43,7 +43,8 @@ collections:
     files:
       - label: 'About'
         name: 'about'
-        file: 'content/about.md'
+        file: 'content/about.json'
+        extension: 'json'
         fields:
           - { label: Description, name: description, widget: markdown }
 
