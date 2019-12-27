@@ -23,8 +23,6 @@ description: >-
   Copyright Note
 
 
-
-
   ![](https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_800/v1577463135/50309681_113110669768321_4960037136335110144_o_h2ifbi.jpg)
 
 
@@ -32,14 +30,14 @@ description: >-
 
 
   Armina is the Founder and Creative Photographer of Armina Photography. In
-  addition tolifestyle photographyshe is highly passionate aboutfood and
+  addition to lifestyle photography she is highly passionate about food and
   beverage industry photography, which became her main activity recently.
 
 
   Ten years of experience in marketing and eight years of experience in
   photography gives her a chance to not only take pictures that will meet
   business needs but also provide business consulting about the use of those
-  photos. This mixture of services got a brand nameArmina Foodist.
+  photos. This mixture of services got a brand name Armina Foodist.
 
 
   Armina Foodist services include:
@@ -78,8 +76,6 @@ description: >-
   services to partners in different European countries.
 
 
-
-
   #### Partners
 
 
@@ -90,8 +86,6 @@ description: >-
 
 
   Royal Tulip Hotel
-
-
 
 
   ### Contact Information
@@ -108,8 +102,20 @@ description: >-
   [www.linkedin.com/in/armina-foodist](http://www.linkedin.com/in/armina-foodist)
 
 
-
-
   ### Social Channels
+
+
+
+
+  #### Copyright Note
+
+
+  All photographs appearing on arminaphotography.com are copyrighted and
+  protected under international copyright laws. The images may not be
+  reproduced, stored, or manipulated in any way without prior written permission
+  from Armina Photography and the copyright holder(s).
+
+
+  Copyright © 2019 Armina Photography
 ---
 
