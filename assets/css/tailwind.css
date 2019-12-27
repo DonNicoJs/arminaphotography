@@ -68,3 +68,7 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+.main-container {
+  min-height: calc(100vh - 2rem);
+}

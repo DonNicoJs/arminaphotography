@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top- left-0 right-0 bg-white z-10 px-8 md:px-32">
+  <nav class="fixed top-0 left-0 right-0 bg-white z-10">
     <div class=" flex justify-between items-center flex-col sm:flex-row">
       <div>
         <nuxt-link :to="{ name: 'index' }" class="font-kristi text-5xl">
@@ -7,15 +7,13 @@
         </nuxt-link>
       </div>
       <div class="flex items-center">
-        <a href="https://www.facebook.com/arminaphotography/" target="_blank">
-          facebook
-        </a>
-
+        <nuxt-link :to="{ name: 'about' }">
+          about
+        </nuxt-link>
         <span class="bg-red-armina h-2 w-2 mx-2" />
-
-        <a href="mailto:arminaphotography@gmail.com">
-          e-mail
-        </a>
+        <nuxt-link :to="{ name: 'about' }">
+          contact
+        </nuxt-link>
       </div>
     </div>
     <div v-if="showTags" class="pb-2">
@@ -31,13 +29,6 @@
             @click.prevent="selectTag(tag.value)"
             class="flex items-center focus:outline-none"
           >
-            <!-- <img
-              :class="{
-                'h-0 w-0 opacity-0 transition-all transition-250': true,
-                'h-3 w-3 opacity-100': tag.value === selectedTag
-              }"
-              src="~assets/icons/close.svg"
-            /> -->
             <span class="capitalize">{{ tag.label }}</span>
           </button>
         </li>
