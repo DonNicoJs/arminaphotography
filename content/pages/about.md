@@ -2,16 +2,7 @@
 title: about
 slug: about
 description: >-
-  In this page:
-
-
-  About the Author
-
-
-  Partners
-
-
-  Copyright Note
+  In this page: About the Author | Partners | Copyright Note
 
 
   ![](https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_800/v1577463135/50309681_113110669768321_4960037136335110144_o_h2ifbi.jpg)
@@ -34,33 +25,33 @@ description: >-
   Armina Foodist services include:
 
 
-  \* food and beverage photography
+  \- food and beverage photography
 
 
-  \* related commercial collateral material design
+  \- related commercial collateral material design
 
 
-  \* photo editing
+  \- photo editing
 
 
-  \* food and beverage industry business consulting
+  \- food and beverage industry business consulting
 
 
-  \* food marketing
+  \- food marketing
 
 
-  \* assistance in creation and maintenance of food and beverage industry media
+  \- assistance in creation and maintenance of food and beverage industry media
   channels
 
 
-  \* assistance in creation and maintenance of food and beverage industry
+  \- assistance in creation and maintenance of food and beverage industry
   websites and apps
 
 
-  \* visual food art
+  \- visual food art
 
 
-  \* creative food services
+  \- creative food services
 
 
   Located in Hungary, she travels all over Europe to provide Armina Foodist
