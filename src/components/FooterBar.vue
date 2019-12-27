@@ -6,8 +6,9 @@
       :key="index"
       target="_blank"
       class="pointer"
+      rel="noopener"
     >
-      <g-image :src="link.icon" :alt="link.name" class="w-8 h-8"></g-image>
+      <g-image :src="link.icon" :alt="link.name" class="w-10 h-10"></g-image>
     </a>
   </footer>
 </template>
