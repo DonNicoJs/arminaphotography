@@ -22,33 +22,25 @@ description: >-
   Armina Foodist services include:
 
 
-  \- food and beverage photography
+  * food and beverage photography
 
+  * related commercial collateral material design
 
-  \- related commercial collateral material design
+  * photo editing
 
+  *  food and beverage industry business consulting
 
-  \- photo editing
+  * food marketing
 
-
-  \- food and beverage industry business consulting
-
-
-  \- food marketing
-
-
-  \- assistance in creation and maintenance of food and beverage industry media
+  * assistance in creation and maintenance of food and beverage industry media
   channels
 
-
-  \- assistance in creation and maintenance of food and beverage industry
+  * assistance in creation and maintenance of food and beverage industry
   websites and apps
 
+  * visual food art
 
-  \- visual food art
-
-
-  \- creative food services
+  * creative food services
 
 
   Located in Hungary, she travels all over Europe to provide Armina Foodist
