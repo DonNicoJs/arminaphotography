@@ -1,6 +1,7 @@
 ---
 title: lifestyle
 slug: lifestyle
+order: 2
 thumbnail: >-
   https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_1240/v1576419118/lifestyle/Lifestyle_-_Featured_Photo_k0sjmy.jpg
 pictures:
@@ -40,3 +41,4 @@ pictures:
       - people
     title: People
 ---
+
