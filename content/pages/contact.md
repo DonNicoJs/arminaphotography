@@ -4,6 +4,7 @@ slug: contact
 description: >-
   ![](https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_800/v1573303134/food/AF_000005-1_Edited_vbz0ws.jpg)
 
+   
 
   Armina is the Founder and Creative Photographer of Armina Photography. In
   addition to lifestyle photography she is highly passionate about food and
@@ -20,8 +21,6 @@ description: >-
   Armina.
 
 
-
-
   ### Contact Information
 
 
@@ -36,11 +35,7 @@ description: >-
   [m.me/armina.foodist.photography](https://m.me/armina.foodist.photography?fbclid=IwAR1OAWbZtXRp_fK2J6pFc2Y-j1KBiGRWLbJF7f35BqZ5yQT3_Z-8DVX22Zs)
 
 
-
-
   ### Social Channels
-
-
 
 
   #### Copyright Note
