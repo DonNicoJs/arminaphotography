@@ -1,4 +1,6 @@
 ---
+title: about
+slug: about
 description: >-
   Pellentesque metus enim, pulvinar vel turpis eu, luctus interdum lacus. Donec
   porta ex in lectus suscipit feugiat. Ut tincidunt rutrum nunc id consectetur.
@@ -45,4 +47,3 @@ description: >-
 
   * emai: asd.lol
 ---
-

@@ -25,7 +25,8 @@ module.exports = {
     }
   },
   templates: {
-    Albums: "/:slug"
+    Albums: "/album/:slug",
+    Pages: "/blog/:slug"
   },
   plugins: [
     {
