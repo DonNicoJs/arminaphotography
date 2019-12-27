@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <div v-html="parsed" />
+    <div class="container Page">
+      <div v-html="parsed" />
+    </div>
   </Layout>
 </template>
 
@@ -31,3 +33,36 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.Page {
+  img {
+    @apply w-3/4;
+  }
+
+  h4 {
+    @apply text-4xl font-kristi mt-8;
+  }
+
+  h3 {
+    @apply text-5xl font-kristi mt-8 mb-2;
+  }
+
+  h2 {
+    @apply text-5xl font-kristi font-bold mt-8 mb-2;
+  }
+
+  p {
+    @apply my-2 px-4 text-justify;
+  }
+
+  ul {
+    @apply my-2 px-4;
+  }
+
+  li {
+    list-style-type: "-  ";
+    @apply ml-4;
+  }
+}
+</style>

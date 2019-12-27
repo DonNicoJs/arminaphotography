@@ -15,8 +15,8 @@
         </template>
       </div>
     </div>
-    <div v-if="showTags" class="pb-2">
-      <ul class="flex items-center justify-center text-xl">
+    <div v-if="showTags" class="mt-4 md:mt-0 pb-2">
+      <ul class="flex items-center justify-center text-xl flex-wrap">
         <li
           v-for="tag in parsedTags"
           :class="{

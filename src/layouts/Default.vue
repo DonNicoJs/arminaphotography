@@ -6,10 +6,12 @@
       class="px-8 md:px-32"
       @selected="selectTag"
     />
-    <div class="pt-32 px-8 md:px-32 main-container">
-      <slot />
-    </div>
-    <FooterBar class="px-8 md:px-32 pb-8" />
+    <transition name="fade-and-slide" appear>
+      <div class="pt-32 px-8 md:px-32 main-container">
+        <slot />
+      </div>
+    </transition>
+    <FooterBar class="px-8 md:px-32 pb-4 pt-8" />
   </div>
 </template>
 

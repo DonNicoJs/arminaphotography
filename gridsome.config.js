@@ -7,6 +7,13 @@ const tailwindcss = require("tailwindcss");
 
 module.exports = {
   siteName: "arminaphotography",
+  configureWebpack: {
+    resolve: {
+      alias: {
+        vue$: "vue/dist/vue.esm.js"
+      }
+    }
+  },
   transformers: {
     remark: {
       externalLinksTarget: "_blank",

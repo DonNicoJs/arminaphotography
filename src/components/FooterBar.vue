@@ -1,10 +1,11 @@
 <template>
-  <footer>
+  <footer class="flex">
     <a
       :href="link.url"
       v-for="(link, index) in links"
       :key="index"
       target="_blank"
+      class="pointer"
     >
       <g-image :src="link.icon" :alt="link.name" class="w-8 h-8"></g-image>
     </a>
