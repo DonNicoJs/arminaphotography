@@ -19,7 +19,7 @@
 
 <page-query>
 query {
-  albums: allAlbums {
+  albums: allAlbums(sortBy:"order", order: ASC) {
     edges {
       node {
         thumbnail,

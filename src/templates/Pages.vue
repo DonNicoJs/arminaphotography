@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div v-html=""></div>
+    <div v-html="parsed" />
   </Layout>
 </template>
 
@@ -14,14 +14,20 @@
 </page-query>
 
 <script>
+import MarkdownIt from "markdown-it";
 import { capitalize } from "lodash-es";
+const md = MarkdownIt();
+
 export default {
   metaInfo() {
     return {
       title: capitalize(this.$page.page.title)
     };
+  },
+  computed: {
+    parsed() {
+      return md.render(this.$page.page.description);
+    }
   }
 };
 </script>
-
-<style></style>

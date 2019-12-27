@@ -1,6 +1,6 @@
 ---
-title: about
-slug: about
+title: contact
+slug: contact
 description: >-
   Pellentesque metus enim, pulvinar vel turpis eu, luctus interdum lacus. Donec
   porta ex in lectus suscipit feugiat. Ut tincidunt rutrum nunc id consectetur.
