@@ -55,14 +55,14 @@ collections:
       - label: "Social"
         name: "social"
         file: "content/social.md"
-    fields:
-      - label: "Gallery"
-        name: "galleryImages"
-        widget: "list"
         fields:
-          - { label: "Icon", name: "icon", widget: "image" }
-          - { label: Name, name: name, widget: string }
-          - { label: Url, name: url, widget: string }
+          - label: "Links"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: "Icon", name: "icon", widget: "image" }
+              - { label: Name, name: name, widget: string }
+              - { label: Url, name: url, widget: string }
 
 media_library:
   name: cloudinary
