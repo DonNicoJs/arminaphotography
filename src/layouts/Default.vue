@@ -9,7 +9,7 @@
     <div class="pt-32 px-8 md:px-32 main-container">
       <slot />
     </div>
-    <FooterBar class="px-8 md:px-32" />
+    <FooterBar class="px-8 md:px-32 pb-8" />
   </div>
 </template>
 

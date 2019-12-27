@@ -12,9 +12,9 @@
 @tailwind base;
 
 @font-face {
-  font-family: 'kristimedium';
-  src: url('../fonts/kristi-webfont.woff2') format('woff2'),
-    url('../fonts/kristi-webfont.woff') format('woff');
+  font-family: "kristimedium";
+  src: url("../fonts/kristi-webfont.woff2") format("woff2"),
+    url("../fonts/kristi-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -70,5 +70,5 @@
  */
 
 .main-container {
-  min-height: calc(100vh - 2rem);
+  min-height: calc(100vh - 4rem);
 }
