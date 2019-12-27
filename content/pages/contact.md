@@ -2,19 +2,27 @@
 title: contact
 slug: contact
 description: >-
-  In this page:
-
-
-  Contact Information
-
-
-  Social Channels
-
-
-  Copyright Note
+  In this page: Contact Information | Social Channels | Copyright Note
 
 
   ![](https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_800/v1573303134/food/AF_000005-1_Edited_vbz0ws.jpg)
+
+
+  Armina is the Founder and Creative Photographer of Armina Photography. In
+  addition to lifestyle photography she is highly passionate about food and
+  beverage industry photography, which became her main activity recently.
+
+
+  Ten years of experience in marketing and eight years of experience in
+  photography gives her a chance to not only take pictures that will meet
+  business needs but also to provide business consulting about the use of those
+  photos.
+
+
+  For more inforation or cooperation please use the details below to contact
+  Armina.
+
+
 
 
   ### Contact Information
