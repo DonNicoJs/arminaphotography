@@ -2,9 +2,6 @@
 title: contact
 slug: contact
 description: >-
-  In this page: Contact Information | Social Channels | Copyright Note
-
-
   ![](https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_800/v1573303134/food/AF_000005-1_Edited_vbz0ws.jpg)
 
 
