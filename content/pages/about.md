@@ -23,7 +23,7 @@ description: >-
   ![](https://res.cloudinary.com/donnicojs/image/upload/c_scale,w_800/v1577463135/50309681_113110669768321_4960037136335110144_o_h2ifbi.jpg)
 
 
-  #### About the Author
+  #### <b>About the Author</b>
 
 
   Armina is the Founder and Creative Photographer of Armina Photography. In
