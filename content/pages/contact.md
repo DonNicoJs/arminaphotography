@@ -31,12 +31,14 @@ description: >-
   Email | [arminaphotography@gmail.com](mailto:arminaphotography@gmail.com)
 
 
-  Messenger |
+  Linkedin |
+  [www.linkedin.com/in/armina-foodist](http://www.linkedin.com/in/armina-foodist)
+
+
+  Business Messenger |
   [m.me/armina.foodist.photography](https://m.me/armina.foodist.photography?fbclid=IwAR1OAWbZtXRp_fK2J6pFc2Y-j1KBiGRWLbJF7f35BqZ5yQT3_Z-8DVX22Zs)
 
 
-  Linkedin |
-  [www.linkedin.com/in/armina-foodist](http://www.linkedin.com/in/armina-foodist)
 
 
   ### Social Channels
