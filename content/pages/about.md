@@ -33,7 +33,7 @@ description: >-
 
   Ten years of experience in marketing and eight years of experience in
   photography gives her a chance to not only take pictures that will meet
-  business needs but also provide business consulting about the use of those
+  business needs but also to provide business consulting about the use of those
   photos. This mixture of services got a brand name Armina Foodist.
 
 
