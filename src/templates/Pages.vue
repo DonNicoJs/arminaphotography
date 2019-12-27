@@ -37,19 +37,19 @@ export default {
 <style lang="scss">
 .Page {
   img {
-    @apply w-3/4;
+    @apply w-3/4 mb-4;
   }
 
   h4 {
-    @apply text-4xl font-kristi mt-8;
+    @apply text-4xl font-kristi mt-6;
   }
 
   h3 {
-    @apply text-5xl font-kristi mt-8 mb-2;
+    @apply text-5xl font-kristi mt-6 mb-2;
   }
 
   h2 {
-    @apply text-5xl font-kristi font-bold mt-8 mb-2;
+    @apply text-5xl font-kristi font-bold mt-6 mb-2;
   }
 
   p {
