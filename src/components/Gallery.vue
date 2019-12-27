@@ -16,9 +16,9 @@
           v-if="showPic"
           class="z-50 fixed w-full h-full top-0 left-0 flex items-center justify-center"
         >
-          <div class=" absolute w-full h-full bg-gray-900 opacity-75"></div>
+          <div class="absolute w-full h-full bg-gray-900 opacity-75"></div>
           <div
-            class="relative w-2/4 mx-auto rounded shadow-lg z-50 overflow-y-auto"
+            class="relative w-2/4  mx-auto rounded shadow-lg z-50 overflow-y-auto"
           >
             <button
               class="absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 z-50 rounded shadow-lg bg-gray-800 p-1 outline-none"
@@ -36,7 +36,11 @@
                 ></path>
               </svg>
             </button>
-            <g-image :src="showPic.image" :title="showPic.title" />
+            <g-image
+              class="w-auto max-h-3/4"
+              :src="showPic.image"
+              :title="showPic.title"
+            />
           </div>
         </div>
       </transition>
