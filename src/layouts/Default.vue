@@ -7,9 +7,9 @@
       @selected="selectTag"
     />
     <transition name="fade-and-slide" appear>
-      <div class="pt-32 px-8 md:px-32 main-container">
+      <main id="main" class="pt-32 px-8 md:px-32 main-container">
         <slot />
-      </div>
+      </main>
     </transition>
     <FooterBar class="px-8 md:px-32 pb-4 pt-8" />
   </div>

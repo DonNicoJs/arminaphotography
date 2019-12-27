@@ -595,6 +595,7 @@ module.exports = {
     require("tailwindcss-transforms")({
       "3d": false // defaults to false
     }),
-    require("tailwindcss-transitions")()
+    require("tailwindcss-transitions")(),
+    require("tailwindcss-skip-link")()
   ]
 };
