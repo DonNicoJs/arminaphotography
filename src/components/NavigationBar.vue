@@ -38,16 +38,16 @@
 </template>
 
 <static-query>
-query {
-  pages: allPages {
-    edges {
-      node {
-        title,
-        path
+  query {
+    pages: allPages {
+      edges {
+        node {
+          title
+          path
+        }
       }
     }
   }
-}
 </static-query>
 
 <script>

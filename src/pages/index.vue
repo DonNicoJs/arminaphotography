@@ -19,21 +19,21 @@
 </template>
 
 <page-query>
-query {
-  albums: allAlbums(sortBy:"order", order: ASC) {
-    edges {
-      node {
-        thumbnail,
-        title,
-        path
+  query {
+    albums: allAlbums(sortBy: "order", order: ASC) {
+      edges {
+        node {
+          thumbnail
+          title
+          path
+        }
       }
     }
   }
-}
 </page-query>
 
 <script>
-import Picture from "@/components/Picture";
+import Picture from "@/components/Picture.vue";
 
 export default {
   components: {

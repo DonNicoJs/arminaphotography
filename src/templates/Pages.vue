@@ -9,7 +9,7 @@
 <page-query>
   query($id: ID!) {
     page: pages(id: $id) {
-      title,
+      title
       description
     }
   }

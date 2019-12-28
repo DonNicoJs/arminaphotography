@@ -7,19 +7,19 @@
 <page-query>
   query($id: ID!) {
     album: albums(id: $id) {
-     title,
-     pictures {
-       image,
-       title,
-       tags
-     }
+      title
+      pictures {
+        image
+        title
+        tags
+      }
     }
   }
 </page-query>
 
 <script>
 import { capitalize } from "lodash-es";
-import Gallery from "@/components/Gallery";
+import Gallery from "@/components/Gallery.vue";
 
 export default {
   metaInfo() {

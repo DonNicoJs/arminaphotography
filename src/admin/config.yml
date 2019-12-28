@@ -66,14 +66,12 @@ collections:
               - { label: "Icon", name: "icon", widget: "image" }
               - { label: Name, name: name, widget: string }
               - { label: Url, name: url, widget: string }
-    files:
       - label: "Metadata"
         name: "metadata"
         file: "content/metadata.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text" }
-
 
 media_library:
   name: cloudinary

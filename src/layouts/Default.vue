@@ -15,14 +15,33 @@
   </div>
 </template>
 
+<static-query>
+  query {
+    metadata: allCustomMetadata {
+      edges {
+        node {
+          title
+          description
+        }
+      }
+    }
+  }
+</static-query>
+
 <script>
-import NavigationBar from "~/components/NavigationBar";
-import FooterBar from "~/components/FooterBar";
+import { get } from "lodash-es";
+import NavigationBar from "~/components/NavigationBar.vue";
+import FooterBar from "~/components/FooterBar.vue";
 
 export default {
   components: {
     NavigationBar,
     FooterBar
+  },
+  metaInfo() {
+    return {
+      meta: [{ name: "description", content: this.siteDescription }]
+    };
   },
   provide() {
     const selected = {};
@@ -42,6 +61,11 @@ export default {
       tags: [],
       tag: null
     };
+  },
+  computed: {
+    siteDescription() {
+      return get(this, "$static.metadata.edges[0].node.description", null);
+    }
   },
   mounted() {
     this.tag = this.$route.query.tag;

@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import Picture from "@/components/Picture";
+import Picture from "@/components/Picture.vue";
 import { Portal } from "@linusborg/vue-simple-portal";
 
 export default {
