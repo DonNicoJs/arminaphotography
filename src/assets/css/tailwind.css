@@ -12,7 +12,7 @@
 @tailwind utilities;
 
 .main-container {
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 6rem);
 }
 
 .fade-enter-active {

@@ -18,7 +18,9 @@
             class="z-50 fixed w-full h-full top-0 left-0 flex items-center justify-center"
           >
             <div class="absolute w-full h-full bg-gray-900 opacity-75"></div>
-            <div class="relative md:max-w-1/2  mx-auto rounded shadow-lg z-50">
+            <div
+              class="relative md:max-w-1/2 lg:max-w-3/4  mx-auto rounded shadow-lg z-50"
+            >
               <button
                 class="absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-4 mr-4 z-50 rounded shadow-lg bg-gray-800 p-1 outline-none"
                 @click="showPic = null"
@@ -36,7 +38,7 @@
                 </svg>
               </button>
               <g-image
-                class="w-auto md:max-h-3/4-screen"
+                class="w-auto md:max-h-3/4-screen lg:max-h-9/10-screen"
                 :src="showPic.image"
                 :title="showPic.title"
               />

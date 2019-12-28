@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 right-0 bg-white z-10">
+  <nav class="fixed top-0 left-0 right-0 bg-white z-10 h-32">
     <div class=" flex justify-between items-center flex-col sm:flex-row">
       <div>
         <g-link to="/" class="font-kristi text-5xl">
