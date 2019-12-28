@@ -45,6 +45,29 @@ module.exports = {
         id: "UA-136143492-3"
       }
     },
+
+    {
+      use: "gridsome-plugin-manifest",
+      options: {
+        background_color: "#FFFFFF",
+        icon_path: "./src/assets/favicon.png",
+        name: "Arminaphotography",
+        short_name: "Arminaphotography",
+        theme_color: "#8c0000",
+        lang: "en"
+      }
+    },
+    {
+      use: "gridsome-plugin-service-worker",
+      options: {
+        networkFirst: {
+          routes: [
+            "/",
+            /\.(js|css|png)$/ // means "every JS, CSS, and PNG images"
+          ]
+        }
+      }
+    },
     {
       use: "@gridsome/source-filesystem",
       options: {
