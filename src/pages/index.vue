@@ -32,12 +32,35 @@
   }
 </page-query>
 
+<static-query>
+  query {
+    metadata: allCustomMetadata {
+      edges {
+        node {
+          title
+        }
+      }
+    }
+  }
+</static-query>
+
 <script>
+import { get } from "lodash-es";
 import Picture from "@/components/Picture.vue";
 
 export default {
   components: {
     Picture
+  },
+  metaInfo() {
+    return {
+      title: this.metaTitle
+    };
+  },
+  computed: {
+    metaTitle() {
+      return get(this, "$static.metadata.edges[0].node.title", null);
+    }
   }
 };
 </script>

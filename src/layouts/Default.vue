@@ -20,7 +20,6 @@
     metadata: allCustomMetadata {
       edges {
         node {
-          title
           description
         }
       }
@@ -29,7 +28,7 @@
 </static-query>
 
 <script>
-import { get } from "lodash-es";
+import { get, capitalize } from "lodash-es";
 import NavigationBar from "~/components/NavigationBar.vue";
 import FooterBar from "~/components/FooterBar.vue";
 
@@ -40,7 +39,7 @@ export default {
   },
   metaInfo() {
     return {
-      meta: [{ name: "description", content: this.siteDescription }]
+      meta: [{ name: "description", content: this.metaDescription }]
     };
   },
   provide() {
@@ -63,7 +62,7 @@ export default {
     };
   },
   computed: {
-    siteDescription() {
+    metaDescription() {
       return get(this, "$static.metadata.edges[0].node.description", null);
     }
   },
