@@ -297,11 +297,12 @@ module.exports = {
       "2/3-screen": "66vh",
       "3/4-screen": "70vh"
     }),
-    inset: {
+    inset: theme => ({
+      ...theme("spacing"),
       "0": "0",
       auto: "auto",
       "1/2": "50%"
-    },
+    }),
     letterSpacing: {
       tighter: "-0.05em",
       tight: "-0.025em",
