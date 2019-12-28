@@ -7,7 +7,7 @@
       @selected="selectTag"
     />
     <transition name="fade-and-slide" appear>
-      <main id="main" class="pt-32 px-8 md:px-32 main-container">
+      <main id="main" class="pt-48 md:pt-32 px-8 md:px-32 main-container">
         <slot />
       </main>
     </transition>
