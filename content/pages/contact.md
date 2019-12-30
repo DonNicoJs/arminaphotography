@@ -37,7 +37,17 @@ description: >-
   #### Social Channels
 
 
-  Copyright Note
+  Armina (Food) Photography Facebook Page |
+  [fb.me/armina.foodist.photography](https://fb.me/armina.foodist.photography)
+
+
+  Armina (Lifestyle) Phtography Facebook Page |
+  [fb.me/armina.photography](https://fb.me/armina.foodist.photography)
+
+
+
+
+  #### Copyright Note
 
 
   All photographs appearing on arminaphotography.com are copyrighted and
