@@ -41,10 +41,7 @@ description: >-
   [fb.me/armina.foodist.photography](https://fb.me/armina.foodist.photography)
 
 
-  Armina (Lifestyle) Phtography Facebook Page |
-  [fb.me/armina.photography](https://fb.me/armina.foodist.photography)
-
-
+  Armina (Lifestyle) Phtography Facebook Page | fb.me/armina.photography
 
 
   #### Copyright Note
