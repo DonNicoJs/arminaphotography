@@ -8,7 +8,7 @@
       </div>
       <div class="flex items-center">
         <template v-for="(page, index) in $static.pages.edges">
-          <span v-if="index % 2 === 1" class="bg-red-armina h-2 w-2 mx-2" />
+          <span v-if="index % 2 === 1" class="bg-black h-2 w-2 mx-2" />
           <g-link :to="page.node.path" :key="index">
             {{ page.node.title }}
           </g-link>
