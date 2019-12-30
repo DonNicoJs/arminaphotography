@@ -44,9 +44,11 @@ description: >-
 
 
   Located in Hungary, she travels all over Europe to provide Armina Foodist
-  services to partners in different European countries. For cooperation and
-  partnership suggestions, please check the
-  [Contact](https://www.arminaphotography.com/blog/contact/) page.
+  services to partners in different European countries. 
+
+
+  For cooperation and partnership suggestions, please check the
+  **[Contact](https://www.arminaphotography.com/blog/contact/)** page.
 
 
   #### Partners
