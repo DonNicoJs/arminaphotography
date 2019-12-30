@@ -16,7 +16,7 @@ description: >-
   photos.
 
 
-  For more inforation or cooperation please use the details below to contact
+  For more information or cooperation please use the details below to contact
   Armina.
 
 
