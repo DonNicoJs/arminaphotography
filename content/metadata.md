@@ -1,7 +1,7 @@
 ---
 title: Arminaphotography
 description: >
-  Armina Foodist offers not only food and beverage, lifestyle and commercial
-  photography but also related design, marketing, business consulting, etc.
+  Armina Foodist offers food, lifestyle and commercial photography, as well as
+  related design, marketing, business consulting, etc. Contact now to know more.
 ---
 
