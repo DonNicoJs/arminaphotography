@@ -16,11 +16,11 @@ description: >-
   photos.
 
 
-  For more inforation or cooperation please use the details below to contact
+  For more information or cooperation please use the details below to contact
   Armina.
 
 
-  ### Contact Information
+  #### Contact Information
 
 
   Email | [arminaphotography@gmail.com](mailto:arminaphotography@gmail.com)
@@ -34,7 +34,14 @@ description: >-
   [m.me/armina.foodist.photography](https://m.me/armina.foodist.photography?fbclid=IwAR1OAWbZtXRp_fK2J6pFc2Y-j1KBiGRWLbJF7f35BqZ5yQT3_Z-8DVX22Zs)
 
 
-  ### Social Channels
+  #### Social Channels
+
+
+  Armina (Food) Photography Facebook Page |
+  [fb.me/armina.foodist.photography](https://fb.me/armina.foodist.photography)
+
+
+  Armina (Lifestyle) Phtography Facebook Page | fb.me/armina.photography
 
 
   #### Copyright Note
