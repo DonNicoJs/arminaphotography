@@ -48,11 +48,11 @@ description: >-
 
 
   You can find more information about Armina's work from this
-  **[Portfolio](https://issuu.com/arminaphotography/docs/armina_foodist_portfolio-offer-2020.01)**.
+  ***[Portfolio](https://issuu.com/arminaphotography/docs/armina_foodist_portfolio-offer-2020.01)***.
 
 
   For cooperation and partnership suggestions, please check the
-  **[Contact](https://www.arminaphotography.com/blog/contact/)** page.
+  ***[Contact](https://www.arminaphotography.com/blog/contact/)*** page.
 
 
   #### Partners
